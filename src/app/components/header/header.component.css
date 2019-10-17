@@ -1,0 +1,20 @@
+header {
+  background-color: white;  
+}
+header img {
+  background-color: white;
+  margin: 1vh 1vw;
+  min-width: 100px;
+  max-width: 20%;
+}
+
+header nav {
+  padding: 1vh 1vw;
+  font-weight: 600;
+  background-color: darkblue;
+  color: white;
+};
+
+header nav a {
+  background-color: white;
+}
