@@ -37,6 +37,7 @@ import { HomeComponent } from './views/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { StepperHomeComponent } from './components/stepper-home/stepper-home.component';
+import { FormStepOneComponent } from './components/stepper-home/form-step-one/form-step-one.component';
 
 @NgModule({
   imports:      [
@@ -68,7 +69,8 @@ import { StepperHomeComponent } from './components/stepper-home/stepper-home.com
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    StepperHomeComponent
+    StepperHomeComponent,
+    FormStepOneComponent
   ],
   bootstrap:    [ AppComponent ]
 })
