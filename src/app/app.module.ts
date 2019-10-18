@@ -36,6 +36,7 @@ import { HelloComponent } from './hello.component';
 import { HomeComponent } from './views/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { StepperHomeComponent } from './components/stepper-home/stepper-home.component';
 
 @NgModule({
   imports:      [
@@ -66,7 +67,8 @@ import { FooterComponent } from './components/footer/footer.component';
     HelloComponent,
     HomeComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    StepperHomeComponent
   ],
   bootstrap:    [ AppComponent ]
 })
