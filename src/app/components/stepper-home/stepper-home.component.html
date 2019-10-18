@@ -1,11 +1,67 @@
 <mat-horizontal-stepper [linear]='isLinear' labelPosition="bottom">
-  <mat-step >
+  <mat-step>
     <ng-template matStepLabel>
-     Olá
+      O que você procura?
     </ng-template>
+    <form>
+      <mat-card>
+        <mat-card-title-group>
+
+        </mat-card-title-group>
+        <mat-card-content>
+        </mat-card-content>
+        <mat-card-footer>
+        </mat-card-footer>
+        <mat-card-actions>
+          <button mat-raised-button>Próximo</button>
+        </mat-card-actions>
+      </mat-card>
+    </form>
+
+
   </mat-step>
-   <mat-step label="O que precisa?">
+   <mat-step state="done">
+    <ng-template matStepLabel>
+      Conte-me mais!
+    </ng-template>
+    <form>
+      <mat-card>
+        <mat-card-title-group>
+
+        </mat-card-title-group>
+        <mat-card-content>
+        </mat-card-content>
+        <mat-card-footer>
+        </mat-card-footer>
+        <mat-card-actions>
+          <button mat-raised-button>Próximo</button>
+        </mat-card-actions>
+      </mat-card>
+    </form>
   </mat-step>
-   <mat-step label="Vamos lá!">
+   <mat-step>
+    <ng-template matStepLabel>
+      Vou te ajudar!
+    </ng-template>
+        <form>
+      <mat-card>
+        <mat-card-title-group>
+
+        </mat-card-title-group>
+        <mat-card-content>
+        </mat-card-content>
+        <mat-card-footer>
+        </mat-card-footer>
+        <mat-card-actions>
+          <button mat-raised-button>Próximo</button>
+        </mat-card-actions>
+      </mat-card>
+    </form>
   </mat-step>
+    <ng-template matStepperIcon="ola">
+     <mat-icon>edit</mat-icon>
+    </ng-template>
+    <ng-template matStepperIcon="done">
+     <mat-icon>done</mat-icon>
+    </ng-template>
 </mat-horizontal-stepper>
