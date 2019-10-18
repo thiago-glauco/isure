@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./stepper-home.component.css']
 })
 export class StepperHomeComponent implements OnInit {
-
+  linear: boolean = true;
   constructor() { }
 
   ngOnInit() {
